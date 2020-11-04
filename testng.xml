@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteQAAcademy">
+<listeners>
+<listener class-name="qaacademy.Listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+ <test thread-count="5" name="HomePgSc1">
+    <classes>
+      <class name="qaacademy.HomePageScenario1"/> 
+      </classes> 
+      </test> 
+   <test thread-count="5" name="HomePgSc2">
+       <classes>
+            <class name="qaacademy.HomePageScenario2"/> 
+      </classes> 
+      </test>  
+  <!--  <class name="academy.MyCourses"/> -->
+</suite>

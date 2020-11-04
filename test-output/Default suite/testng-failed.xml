@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="qaacademy.HomePageScenario1">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="basePageNavigationSc1M1"/>
+          <include name="basePageNavigationSc1M3" invocation-numbers="0 1 2 3"/>
+          <include name="basePageNavigationSc1M2"/>
+        </methods>
+      </class> <!-- qaacademy.HomePageScenario1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

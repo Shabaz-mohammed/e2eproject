@@ -1,0 +1,7 @@
+23:18:19.749 [main] DEBUG resources.Base - Clicked on log-in button
+23:18:19.988 [main] DEBUG resources.Base - Successfully Entered both email and password
+23:18:21.421 [main] DEBUG resources.Base - Clicked on sign-in button
+23:18:25.822 [main] DEBUG resources.Base - Clicked on log-in button
+23:18:26.021 [main] DEBUG resources.Base - Successfully Entered both email and password
+23:18:35.824 [main] DEBUG resources.Base - Clicked on sign-in button
+23:18:35.927 [main] DEBUG resources.Base - Closing the browser after testing Scenario1

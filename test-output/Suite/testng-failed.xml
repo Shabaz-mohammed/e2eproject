@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="academy.HomePageScenario1">
+        <methods>
+          <include name="close"/>
+          <include name="basePageNavigationSc1M1"/>
+          <include name="basePageNavigationSc1M3" invocation-numbers="0 1 2"/>
+          <include name="basePageNavigationSc1M2"/>
+        </methods>
+      </class> <!-- academy.HomePageScenario1 -->
+      <class name="academy.HomePageScenario2">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- academy.HomePageScenario2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

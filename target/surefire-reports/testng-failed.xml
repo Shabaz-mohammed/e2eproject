@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestSuiteQAAcademy]">
+  <listeners>
+    <listener class-name="qaacademy.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="HomePgSc1(failed)">
+    <classes>
+      <class name="qaacademy.HomePageScenario1">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="basePageNavigationSc1M2"/>
+        </methods>
+      </class> <!-- qaacademy.HomePageScenario1 -->
+      <class name="qaacademy.HomePageScenario2">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qaacademy.HomePageScenario2 -->
+    </classes>
+  </test> <!-- HomePgSc1(failed) -->
+  <test name="HomePgSc2(failed)">
+    <classes>
+      <class name="qaacademy.HomePageScenario2">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="basePageNavigationSc2M2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qaacademy.HomePageScenario2 -->
+      <class name="qaacademy.HomePageScenario1">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qaacademy.HomePageScenario1 -->
+    </classes>
+  </test> <!-- HomePgSc2(failed) -->
+</suite> <!-- Failed suite [TestSuiteQAAcademy] -->

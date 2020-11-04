@@ -1,0 +1,6 @@
+23:18:43.243 [main] INFO  resources.Base - Navigating to HomePage to test Scenario2
+23:18:43.244 [main] ERROR resources.Base - if test fails then its error in sc2
+23:18:43.285 [main] INFO  resources.Base - Successfully Validated Navigation bar as part of Scenario 2
+23:18:43.285 [main] ERROR resources.Base - if condition fails then test fails then its error
+23:18:48.449 [main] DEBUG resources.Base - Clicked on log-in button as part of Scenario 2
+23:18:51.323 [main] DEBUG resources.Base - Closing the browser after testing Scenario2

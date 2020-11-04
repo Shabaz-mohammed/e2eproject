@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuiteQAAcademy]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="qaacademy.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="HomePgSc2(failed)">
+    <classes>
+      <class name="qaacademy.HomePageScenario2">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="basePageNavigationSc2M2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qaacademy.HomePageScenario2 -->
+    </classes>
+  </test> <!-- HomePgSc2(failed) -->
+</suite> <!-- Failed suite [TestSuiteQAAcademy] -->

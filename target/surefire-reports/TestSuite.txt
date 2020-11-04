@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 53.51 s <<< FAILURE! - in TestSuite
+qaacademy.HomePageScenario1.basePageNavigationSc1M2  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at qaacademy.HomePageScenario1.basePageNavigationSc1M2(HomePageScenario1.java:48)
+
+qaacademy.HomePageScenario2.basePageNavigationSc2M2  Time elapsed: 6.958 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at qaacademy.HomePageScenario2.basePageNavigationSc2M2(HomePageScenario2.java:54)
+
